@@ -3,7 +3,7 @@ clear all;
 # defining input parameters for the algorithm
 input_image_name = 'input.png';
 original_image = imread(input_image_name);
-edge_image = edge(original_image, "Canny");
+edge_image = edge(original_image, 'Canny');
 theta_step = 1;
 resampling = 1;
 n_maximuns = 30;
