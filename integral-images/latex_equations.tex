@@ -1,0 +1,36 @@
+% the integral image formula
+I(x, y) = \sum^{x, y}_{x', y'} i(x', y')
+
+% the pixel value
+i(x, y)
+% at position
+(x, y)
+
+% the efficient way to compute
+\begin{align}
+I(x, y) & = i (x, y) \nonumber \\
+& + I(x, y - 1) \nonumber \\
+& + I (x - 1, y) \nonumber \\
+& - I(x - 1, y -1) \nonumber
+\end{align}
+
+% to compute the sum over rectangular area ABCD
+\sum_{\substack{x_0 < x < x1 \\ y_0 < y < y_1}} i(x, y) = I(D) - I(B) - I(C) + I(A) 
+
+% where 
+\begin{align}
+A = (x_0, y_0) \nonumber \\
+B = (x_1, y_0) \nonumber \\
+C = (x_0, y_1) \nonumber \\
+D = (x_1, y_1) \nonumber
+\end{align}
+
+% the example of sum in a rectangle
+\begin{align}
+I(D) = 89701699.999 \nonumber \\
+I(B) = 48092446.999 \nonumber \\
+I(C) = 34399728.333 \nonumber \\
+I(A) = 17380799.999 \nonumber \\
+\nonumber \\
+\sum = 24590324.666 \nonumber
+\end{align}
