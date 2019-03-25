@@ -14,7 +14,7 @@ from mpl_toolkits.axes_grid1 import make_axes_locatable
 # define constants
 figure_border = 25
 epsilon = 0.0001
-filename = "bodensee.jpg"
+filename = "bodensee.jpg" # available at http://web.eee.sztaki.hu/remotesensing/building_benchmark.html
 max_y = 100000
 max_steps = 250
 
