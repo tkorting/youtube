@@ -56,6 +56,7 @@ for b in range(1,bands+1):
 	array_of_ratios[:,:,b-1] = band_array / band_sums
 
 # create animation of threshold over histogram
+# warning: the user must create the folder "./animation"
 min_R = np.percentile(array_of_ratios[:,:,0].ravel(), 1)
 max_R = np.percentile(array_of_ratios[:,:,0].ravel(), 99)
 thresholds = np.linspace(min_R, max_R, max_steps)
