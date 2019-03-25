@@ -82,7 +82,6 @@ for threshold in thresholds:
 	step = step + 1
 	plt.close()
 
-
 # save plot of RATIO for band 0 (red)
 output_fig = plt.figure()
 ratiob0_ax = output_fig.add_subplot(111)
