@@ -1,5 +1,9 @@
 clear all;
 
+# need to download package from https://octave.sourceforge.io/image/
+# and install by pkg install image-x.yy.0.tar.gz
+pkg load image
+
 # defining input parameters for the algorithm
 input_image_name = 'input.png';
 original_image = imread(input_image_name);
