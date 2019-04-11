@@ -102,7 +102,7 @@ function [matrix_A, rhos_thetas_rankings] = hough_transform(edge_image, theta_st
 
           if (make_animation)
             # print when edge is found
-            figure(10);
+            figure(10, 'visible', 'off');
             clf;
             subplot(1, 2, 2);
             imagesc(edge_image*255);
@@ -140,7 +140,7 @@ function [matrix_A, rhos_thetas_rankings] = hough_transform(edge_image, theta_st
 
       if (make_animation)
         # print when no edge is found
-        figure(10);
+        figure(10, 'visible', 'off');
         clf;
         subplot(1, 2, 2);
         imagesc(edge_image*255);
