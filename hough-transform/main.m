@@ -4,6 +4,10 @@ clear all;
 # and install by pkg install image-x.yy.0.tar.gz
 pkg load image
 
+# load graphics toolkit to allow creating plots 
+# and save to file without display
+graphics_toolkit gnuplot
+
 # defining input parameters for the algorithm
 input_image_name = 'input.png';
 original_image = imread(input_image_name);
