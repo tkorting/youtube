@@ -4,6 +4,10 @@ clear all;
 # and install by pkg install image-x.yy.0.tar.gz
 pkg load image
 
+# need to download package from https://octave.sourceforge.io/geometry/
+# and install by pkg install geometry-x.yy.0.tar.gz
+pkg load geometry
+
 # load graphics toolkit to allow creating plots 
 # and save to file without display
 graphics_toolkit gnuplot
