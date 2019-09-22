@@ -1,3 +1,10 @@
+# Subscribe to my channel, share and like my videos at
+# http://youtube.com/tkorting
+#
+# Feel free to use and share this code.
+#
+# Thales Sehn Körting
+
 function [matrix_A, rhos_thetas_rankings] = hough_transform(edge_image, theta_step = 1, resampling = 1, n_maximuns = 10, display_debug = false, make_animation = false)
 
   # metadata
