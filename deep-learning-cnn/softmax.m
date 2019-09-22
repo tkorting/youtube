@@ -1,3 +1,10 @@
+# Subscribe to my channel, share and like my videos at
+# http://youtube.com/tkorting
+#
+# Feel free to use and share this code.
+#
+# Thales Sehn Körting
+
 # this function assumes that input_vector and weights_matrix(:, class_number) are of the same size
 function sm = softmax(input_vector, class_number, weights_matrix, bias = 0.0)
 
