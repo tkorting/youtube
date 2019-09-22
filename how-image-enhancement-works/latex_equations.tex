@@ -1,0 +1,19 @@
+% assuming images with 8 bits
+L = 2^8 = 256
+% the gray-level single pixel transformation
+s = T (r)
+% gain
+s = \text{gain} \times r
+% offset
+s = r + \text{offset}
+% log
+s = \frac{L}{\log(L)} \times \log(1 + r)
+% nth root
+s = \sqrt[\text{power}]{L \times r}
+s = L^\frac{1}{\text{power}} \times r^\frac{1}{\text{power}}
+% negative
+s = L - 1 - r
+% nth power
+s = \frac{r^\text{power}}{L}
+% inverse log
+s = \exp(r)^\frac{\log(L)}{L}-1
