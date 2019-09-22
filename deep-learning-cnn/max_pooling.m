@@ -1,3 +1,10 @@
+# Subscribe to my channel, share and like my videos at
+# http://youtube.com/tkorting
+#
+# Feel free to use and share this code.
+#
+# Thales Sehn Körting
+
 # this function assumes that input matrix is 2D
 function mp = max_pooling(input_matrix, scale_factor)
 
