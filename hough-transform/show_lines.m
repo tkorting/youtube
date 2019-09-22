@@ -1,3 +1,10 @@
+# Subscribe to my channel, share and like my videos at
+# http://youtube.com/tkorting
+#
+# Feel free to use and share this code.
+#
+# Thales Sehn Körting
+
 # this file can be used in case you produced all animation from octave, and want to display
 # the main lines detected by the hough transform
 # it will load matrices saved in main.m
