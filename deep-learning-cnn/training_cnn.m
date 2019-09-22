@@ -1,3 +1,10 @@
+# Subscribe to my channel, share and like my videos at
+# http://youtube.com/tkorting
+#
+# Feel free to use and share this code.
+#
+# Thales Sehn Körting
+
 # this is a very basic example of a convolutional neural network - CNN
 # parameters:
 # input_image_path: the path to the file with input image
