@@ -1,3 +1,10 @@
+# Subscribe to my channel, share and like my videos at
+# http://youtube.com/tkorting
+#
+# Feel free to use and share this code.
+#
+# Thales Sehn Körting
+
 # this source code shows how a CNN is applied in a set of images
 # composed by 10 images 25x25x3 for each class, representing digits
 # from 0 to 9, the provided images here are only variations of
